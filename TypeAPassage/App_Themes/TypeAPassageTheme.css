@@ -1,0 +1,87 @@
+﻿html {
+    height: 100%;
+}
+
+body {
+    background-color: #008C77;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.button {
+    height: 35px;
+    border-radius: 7px;
+    width: 20%;
+}
+
+.correctColor {
+    color: green;
+}
+
+.incorrectColor {
+    color: red;
+}
+
+.BookLinkBoxStyle {
+    width: 690px;
+    height: 144px;
+    font-size: large;
+    resize: none;
+}
+
+#MainContainer {
+    background-color: white;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+}
+
+#BookLinkDiv {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 15%;
+    border-style: hidden hidden solid;
+    border-width: 1px;
+    padding: 25px;
+}
+
+#BookLinkLabel {
+    align-self: center;
+    margin-bottom: 50px;
+}
+
+#BookLinkBox {
+    border-radius: 5px;
+    border: transparent;
+}
+
+#TypingTestAreaPanel {
+    display: flex;
+    flex-direction: column;
+}
+
+#TypingTextLabel {
+    align-self: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#TypingTestButtonPanel {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+#TypingTestBox {
+    align-self: center;
+}
+
+#StartTestButton:hover {
+    background-color: #3ed23e;
+}
+
+#StopTestButton:hover {
+    background-color: red;
+}
